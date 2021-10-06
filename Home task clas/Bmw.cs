@@ -19,7 +19,7 @@ namespace Home_task_clas
 
         public string Bmwdetail()
         {
-            return $"{CarDetail()} {mode}";
+            return $"{CarDetail()} \nmode:{mode}";
         }
     }
 }

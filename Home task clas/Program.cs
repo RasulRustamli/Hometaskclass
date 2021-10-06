@@ -7,7 +7,7 @@ namespace Home_task_clas
         static void Main(string[] args)
         {
             Bmw car = new Bmw(4, "universal",3.2,"sport");
-            Console.WriteLine(car.CarDetail()); 
+            Console.WriteLine(car.Bmwdetail()); 
         }
     }
 }
